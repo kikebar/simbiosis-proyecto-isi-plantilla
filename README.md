@@ -33,7 +33,7 @@ Los nombres de archivo no incluyen números de versión: el histórico y las ver
 └── releases/                    Versiones estables exportadas (p. ej. PDF)
 ```
 
-El [plan de la iteración E1 de Elaboración](docs/planificacion/plan-iteracion-e1.md) define el alcance funcional y el trabajo previsto de una iteración simulada.
+Los planes de [E1](docs/planificacion/plan-iteracion-e1.md), [E2](docs/planificacion/plan-iteracion-e2.md) y [E3](docs/planificacion/plan-iteracion-e3.md) definen el alcance funcional y el trabajo previsto de tres iteraciones simuladas de Elaboración. E1 aborda acceso, cuentas y ayuda. E2 amplía el trabajo con salud y recetas. E3 incorpora el foro y la resolución de reportes sobre su contenido.
 
 ## Convenciones
 

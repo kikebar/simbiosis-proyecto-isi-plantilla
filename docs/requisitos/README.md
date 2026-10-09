@@ -11,7 +11,7 @@ El catálogo no es una especificación independiente: es parte de la SRS. Para c
 
 ## Uso en las prácticas
 
-La SRS se introduce como resultado de L03 y se consolida como línea base común antes de L04. Desde entonces sirve de referencia compartida en las prácticas posteriores:
+La SRS se consolida como línea base común y sirve de referencia compartida en las prácticas:
 
 - L04 y L05 consultan los requisitos para elaborar y describir los casos de uso.
 - L06 y L07 mantienen la procedencia entre requisitos, historias de usuario y criterios de aceptación.
