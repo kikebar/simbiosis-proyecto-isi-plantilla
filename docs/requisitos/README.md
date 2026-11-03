@@ -26,7 +26,7 @@ La épica reúne la necesidad conjunta. Su división y las decisiones de revisi�
 ## Documentación relacionada
 
 - [Plantilla de backlog](plantilla-backlog.md), v1.2. Estructura vacía para preparar `backlog-propuesto.md`: orden, decisiones de prioridad, comprobaciones de calidad y Definición de Hecho. La posición y el identificador de cada historia son independientes. La conclusión vincula una condición de DoD con la evidencia necesaria.
-- [Historias de usuario de búsqueda](historias-usuario-busqueda.md), v1.0, Borrador. Épica descompuesta en US-01, US-02 y US-03, con criterios de aceptación, fuentes y justificación de la división.
+- [Historias de usuario de búsqueda](historias-usuario-busqueda.md), v1.1, Borrador. Épica descompuesta en US-01, US-02 y US-03, con criterios de aceptación, fuentes y justificación de la división.
 - [Visión y alcance](../vision/vision_y_alcance.md)
 - [Actas de captura y aclaraciones](../captura/README.md)
 - [Registro de decisiones](../decisiones/registro-decisiones.md)

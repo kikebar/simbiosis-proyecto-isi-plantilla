@@ -3,7 +3,7 @@
 | Campo | Valor |
 | --- | --- |
 | Proyecto | Proyecto Simbiosis |
-| Versión | 1.0 |
+| Versión | 1.1 |
 | Estado | Borrador |
 
 ## Alcance y fuentes
@@ -47,6 +47,17 @@ Como usuario registrado, quiero buscar recetas mediante una palabra o frase, par
 
 Las sugerencias conservan las exclusiones. La persona ve los criterios propuestos y decide si ejecuta otra búsqueda. Si no hay sugerencias, el sistema lo indica.
 
+### Revisión INVEST de US-01
+
+| Criterio | Aplicado | Cumple | Justificación |
+| --- | --- | --- | --- |
+| Independiente | Sí | Sí | La búsqueda por texto produce resultados sin seleccionar ingredientes. CA-01 y CA-02 muestran ese resultado. |
+| Negociable | Sí | Sí | Pide localizar recetas; deja abierta la solución técnica. La coincidencia y la ayuda sin resultados respetan el acta. |
+| Valiosa | Sí | Sí | El «para» explica el beneficio: localizar recetas relacionadas con lo que quiere preparar. |
+| Estimable | Sí | Sí | CA-01–03 delimitan coincidencia, frase y respuesta sin resultados; el acta precisa los datos y reglas. |
+| Pequeña | Sí | Sí | Se centra en buscar por palabra o frase. CA-03 trata el caso sin resultados de esa misma búsqueda. |
+| Comprobable | Sí | Sí | CA-01 contrasta tildes y mayúsculas; CA-02, frase y orden; CA-03, ausencia de resultados y criterios conservados. |
+
 ## US-02 · Buscar por ingredientes incluidos
 
 Como usuario registrado, quiero buscar recetas que contengan los ingredientes que selecciono, para encontrar preparaciones que utilicen esos ingredientes.
@@ -63,6 +74,17 @@ Como usuario registrado, quiero buscar recetas que contengan los ingredientes qu
 
 La persona selecciona nombres de ingredientes disponibles en el sistema. Una receta debe contener todos los ingredientes incluidos. Puede contener otros ingredientes. La búsqueda utiliza la selección actual.
 
+### Revisión INVEST de US-02
+
+| Criterio | Aplicado | Cumple | Justificación |
+| --- | --- | --- | --- |
+| Independiente | Sí | Sí | CA-01 permite buscar solo por arroz, sin texto ni exclusiones. |
+| Negociable | Sí | Sí | Pide recetas con ingredientes elegidos y no prescribe controles de interfaz. Respeta la regla del acta de incluirlos todos. |
+| Valiosa | Sí | Sí | El «para» explica el beneficio: encontrar preparaciones que utilicen los ingredientes elegidos. |
+| Estimable | Sí | Sí | CA-01–03 delimitan uno o dos ingredientes y el cambio de selección; el acta fija la regla de inclusión. |
+| Pequeña | Sí | Sí | Se limita a incluir ingredientes en la búsqueda y obtener resultados; retirar uno actualiza la misma selección. |
+| Comprobable | Sí | Sí | CA-01 separa recetas con y sin arroz; CA-02 exige ambos ingredientes; CA-03 comprueba la selección actual. |
+
 ## US-03 · Excluir ingredientes
 
 Como usuario registrado, quiero excluir ingredientes de una búsqueda, para evitar recetas que contengan ingredientes que no quiero utilizar.
@@ -78,6 +100,17 @@ Como usuario registrado, quiero excluir ingredientes de una búsqueda, para evit
 ### Reglas relacionadas
 
 Excluir ingredientes es suficiente para ejecutar una búsqueda. Si se combinan capacidades, cada receta debe cumplir todos los criterios. Basta contener cualquiera de los ingredientes excluidos para quedar fuera. La exclusión expresa no activa un filtro del perfil ni garantiza seguridad frente a alergias.
+
+### Revisión INVEST de US-03
+
+| Criterio | Aplicado | Cumple | Justificación |
+| --- | --- | --- | --- |
+| Independiente | Sí | Sí | CA-01 ejecuta una búsqueda solo con exclusiones, sin texto ni ingredientes incluidos. |
+| Negociable | Sí | Sí | Pide evitar ingredientes seleccionados y deja abierta la interfaz. CA-03 respeta el acuerdo sobre el conflicto. |
+| Valiosa | Sí | Sí | El «para» explica el beneficio: evitar recetas con ingredientes que no quiere utilizar. |
+| Estimable | Sí | Sí | CA-01–03 delimitan exclusión sola, combinación y conflicto; el acta fija el comportamiento acordado. |
+| Pequeña | Sí | Sí | Se centra en excluir ingredientes. CA-02 comprueba que esa capacidad se combina con las demás. |
+| Comprobable | Sí | Sí | CA-01 excluye leche y huevo; CA-02 exige las tres condiciones; CA-03 impide ejecutar criterios en conflicto. |
 
 ## Revisión de las historias con INVEST
 
