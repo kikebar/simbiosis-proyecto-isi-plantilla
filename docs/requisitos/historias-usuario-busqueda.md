@@ -3,7 +3,7 @@
 | Campo | Valor |
 | --- | --- |
 | Proyecto | Proyecto Simbiosis |
-| Versión | 1.2 |
+| Versión | 1.3 |
 | Estado | Revisado |
 
 ## Alcance y fuentes
@@ -51,12 +51,12 @@ Las sugerencias conservan las exclusiones. La persona ve los criterios propuesto
 
 | Criterio | Aplicado | Cumple | Justificación |
 | --- | --- | --- | --- |
-| Independiente | Sí | Sí | La búsqueda por texto produce resultados sin seleccionar ingredientes. CA-01 y CA-02 muestran ese resultado. |
-| Negociable | Sí | Sí | Pide localizar recetas; deja abierta la solución técnica. La coincidencia y la ayuda sin resultados respetan el acta. |
-| Valiosa | Sí | Sí | El «para» explica el beneficio: localizar recetas relacionadas con lo que quiere preparar. |
-| Estimable | Sí | Sí | CA-01–03 delimitan coincidencia, frase y respuesta sin resultados; el acta precisa los datos y reglas. |
-| Pequeña | Sí | Sí | Se centra en buscar por palabra o frase. CA-03 trata el caso sin resultados de esa misma búsqueda. |
-| Comprobable | Sí | Sí | CA-01 contrasta tildes y mayúsculas; CA-02, frase y orden; CA-03, ausencia de resultados y criterios conservados. |
+| Independiente | Sí | Sí | Permite obtener recetas mediante una palabra o frase sin implementar antes la inclusión ni la exclusión de ingredientes. CA-01 y CA-02 muestran ese resultado útil; la historia puede compartir el catálogo de recetas y la infraestructura de búsqueda con las otras dos. |
+| Negociable | Sí | Sí | Se puede acordar cómo introducir el texto y presentar los resultados y las sugerencias. Deben mantenerse las reglas del acta sobre los campos consultados, la coincidencia sin distinguir mayúsculas ni tildes, el orden de la frase y la ayuda sin cambiar los criterios ni ejecutar otra búsqueda sin una acción de la persona. |
+| Valiosa | Sí | Sí | Permite a la persona localizar recetas relacionadas con lo que quiere preparar a partir de una palabra o frase. Obtiene resultados de búsqueda que puede valorar, sin tener que conocer ni seleccionar previamente los ingredientes de esas recetas. |
+| Estimable | Sí | Sí | La historia, CA-01–03 y el acta delimitan la búsqueda en título o descripción breve, la coincidencia del texto y la respuesta sin resultados. El trabajo que se estime debe incluir también las sugerencias acordadas; el equipo debe valorar su solución técnica y aclarar cualquier incertidumbre que impida estimarla. |
+| Pequeña | Sí | Sí | Se centra en buscar por texto y responder cuando esa búsqueda no obtiene resultados; deja fuera la búsqueda por ingredientes, los demás filtros y la consulta del detalle. La ayuda con sugerencias forma parte del alcance y debe tenerse en cuenta al confirmar que el tamaño sea manejable para el equipo. |
+| Comprobable | Sí | Sí | CA-01 permite detectar una búsqueda que distinga mayúsculas o tildes; CA-02, una que acepte palabras separadas o en orden inverso. CA-03 permite comprobar el aviso sin resultados y la conservación de los criterios; los acuerdos del acta completan las comprobaciones de las sugerencias. |
 
 ## US-02 · Buscar por ingredientes incluidos
 
@@ -78,12 +78,12 @@ La persona selecciona nombres de ingredientes disponibles en el sistema. Una rec
 
 | Criterio | Aplicado | Cumple | Justificación |
 | --- | --- | --- | --- |
-| Independiente | Sí | Sí | CA-01 permite buscar solo por arroz, sin texto ni exclusiones. |
-| Negociable | Sí | Sí | Pide recetas con ingredientes elegidos y no prescribe controles de interfaz. Respeta la regla del acta de incluirlos todos. |
-| Valiosa | Sí | Sí | El «para» explica el beneficio: encontrar preparaciones que utilicen los ingredientes elegidos. |
-| Estimable | Sí | Sí | CA-01–03 delimitan uno o dos ingredientes y el cambio de selección; el acta fija la regla de inclusión. |
-| Pequeña | Sí | Sí | Se limita a incluir ingredientes en la búsqueda y obtener resultados; retirar uno actualiza la misma selección. |
-| Comprobable | Sí | Sí | CA-01 separa recetas con y sin arroz; CA-02 exige ambos ingredientes; CA-03 comprueba la selección actual. |
+| Independiente | Sí | Sí | Permite seleccionar ingredientes y obtener recetas que los contengan sin implementar antes la búsqueda por texto ni las exclusiones. CA-01 muestra una búsqueda solo por arroz; la capacidad incluye obtener los resultados y puede compartir infraestructura con las otras historias. |
+| Negociable | Sí | Sí | Se puede acordar cómo presentar los ingredientes disponibles y cómo añadirlos o retirarlos de la selección. Debe mantenerse la regla del acta: cada resultado contiene todos los ingredientes seleccionados, aunque puede contener otros, y la búsqueda utiliza la selección actual. |
+| Valiosa | Sí | Sí | Permite encontrar preparaciones que utilicen los ingredientes elegidos por la persona. Al exigir que cada receta los contenga todos, evita que tenga que revisar resultados que solo coinciden con una parte de su selección. |
+| Estimable | Sí | Sí | La historia y CA-01–03 delimitan la selección de ingredientes disponibles, la búsqueda de recetas que los contienen todos y el cambio de resultados al retirar una selección. El acta precisa esas reglas, lo que permite identificar el trabajo que debe estimarse; arroz y pollo son datos de prueba, no un límite de dos ingredientes. |
+| Pequeña | Sí | Sí | Se centra en una capacidad completa: seleccionar ingredientes y obtener recetas que los contengan. Añadir o retirar una selección ajusta esa misma búsqueda; quedan fuera gestionar el catálogo de ingredientes, buscar por texto, excluir ingredientes y consultar el detalle de una receta. |
+| Comprobable | Sí | Sí | CA-01 distingue recetas con arroz de recetas sin él; CA-02 detecta si el sistema acepta solo uno de los ingredientes cuando se han elegido dos. CA-03 permite comprobar que retirar pollo elimina esa exigencia y que la búsqueda utiliza la selección actual. |
 
 ## US-03 · Excluir ingredientes
 
@@ -105,14 +105,16 @@ Excluir ingredientes es suficiente para ejecutar una búsqueda. Si se combinan c
 
 | Criterio | Aplicado | Cumple | Justificación |
 | --- | --- | --- | --- |
-| Independiente | Sí | Sí | CA-01 ejecuta una búsqueda solo con exclusiones, sin texto ni ingredientes incluidos. |
-| Negociable | Sí | Sí | Pide evitar ingredientes seleccionados y deja abierta la interfaz. CA-03 respeta el acuerdo sobre el conflicto. |
-| Valiosa | Sí | Sí | El «para» explica el beneficio: evitar recetas con ingredientes que no quiere utilizar. |
-| Estimable | Sí | Sí | CA-01–03 delimitan exclusión sola, combinación y conflicto; el acta fija el comportamiento acordado. |
-| Pequeña | Sí | Sí | Se centra en excluir ingredientes. CA-02 comprueba que esa capacidad se combina con las demás. |
-| Comprobable | Sí | Sí | CA-01 excluye leche y huevo; CA-02 exige las tres condiciones; CA-03 impide ejecutar criterios en conflicto. |
+| Independiente | Sí | Sí | Permite obtener recetas utilizando solo ingredientes excluidos, sin implementar antes la búsqueda por texto ni la inclusión de ingredientes, como muestra CA-01. CA-02 y CA-03 comprueban la integración con las otras capacidades cuando están disponibles; esa integración debe planificarse, aunque la exclusión ya ofrece un resultado útil por separado. |
+| Negociable | Sí | Sí | Se puede acordar cómo seleccionar y mostrar los ingredientes excluidos y cómo señalar un conflicto. Deben mantenerse las reglas del acta: ningún resultado contiene cualquiera de los ingredientes excluidos y, si uno está incluido y excluido a la vez, se conservan los criterios y no se ejecuta la búsqueda hasta corregirlo. |
+| Valiosa | Sí | Sí | Permite evitar recetas que contengan ingredientes que la persona no quiere utilizar, incluso cuando solo indica exclusiones. El beneficio es ajustar los resultados a esa elección expresa; la historia no aplica automáticamente el perfil ni garantiza seguridad frente a alergias. |
+| Estimable | Sí | Sí | La historia y CA-01–03 delimitan la exclusión por sí sola, su combinación con texto e inclusión y la detección de un ingrediente incluido y excluido a la vez. El acta fija el resultado de cada situación; la estimación debe contemplar también el trabajo de integración con las otras capacidades. |
+| Pequeña | Sí | Sí | Se centra en excluir ingredientes y obtener resultados que respeten esa selección. La combinación y el conflicto comprueban cómo se incorpora la exclusión a la búsqueda; quedan fuera los filtros automáticos del perfil, la gestión de alergias y los demás filtros de UC-21. |
+| Comprobable | Sí | Sí | CA-01 detecta si se admite alguna receta con leche o huevo cuando ambos están excluidos. CA-02 exige que cada resultado cumpla las tres condiciones de la búsqueda; CA-03 permite comprobar que un conflicto se señala, conserva los criterios y bloquea la ejecución hasta corregirlo. |
 
 ## Revisión de las historias con INVEST
+
+Estimable y Pequeña son juicios razonados sobre el alcance descrito. El equipo que vaya a implementar las historias debe confirmar que conoce los datos y las condiciones técnicas necesarios y que el trabajo cabe en su capacidad disponible. Los criterios de aceptación aportan ejemplos de comprobación; no sustituyen los demás acuerdos del acta ni demuestran por sí solos el esfuerzo requerido.
 
 Las tres historias expresan capacidades útiles por separado y un beneficio para la persona. Su alcance es comprensible y sus criterios permiten comprobar resultados. La redacción deja abierta la implementación. Pueden compartir infraestructura.
 
