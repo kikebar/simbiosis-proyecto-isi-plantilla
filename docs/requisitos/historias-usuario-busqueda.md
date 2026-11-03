@@ -3,8 +3,8 @@
 | Campo | Valor |
 | --- | --- |
 | Proyecto | Proyecto Simbiosis |
-| Versión | 1.1 |
-| Estado | Borrador |
+| Versión | 1.2 |
+| Estado | Revisado |
 
 ## Alcance y fuentes
 
