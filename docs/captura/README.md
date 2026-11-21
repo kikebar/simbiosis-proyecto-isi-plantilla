@@ -14,3 +14,7 @@ Esta carpeta reúne las actas generadas durante la captura y aclaración de requ
 | [acta-acuerdos-uc-21-buscar-recetas.md](acta-acuerdos-uc-21-buscar-recetas.md) | Aclaraciones aprobadas de UC-21 · Buscar recetas, para L06 |
 
 Cada acta nueva de captura o aclaración debe añadirse a esta carpeta y listarse en la tabla anterior.
+
+## Información del dominio
+
+El [acta de acuerdos sobre la información del dominio](acta-acuerdos-informacion-dominio.md) reúne la información de siete áreas, sus acuerdos confirmados, sus propuestas provisionales y sus aspectos aplazados. Sus aclaraciones de requisitos se reflejan en el catálogo actualizado.

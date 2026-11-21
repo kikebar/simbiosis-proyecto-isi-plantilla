@@ -41,7 +41,7 @@ Los documentos Markdown utilizan enlaces relativos. Desde un archivo situado dir
 
 ## Uso de la plantilla base
 
-La plantilla base se conserva en `plantilla-modelo-casos-de-uso.md`. Para iniciar un modelo, copia su contenido en `modelo-casos-de-uso.md` y completa ese documento. El modelo del repositorio contiene el resultado acumulado del modelado de actores y casos de uso de E1 y E2, con sus diagramas y respaldo en los requisitos. La versión vigente es v2.5. El apartado 6 contiene las descripciones detalladas de UC-05 y UC-21, delimitadas por sus actas aprobadas.
+La plantilla base se conserva en `plantilla-modelo-casos-de-uso.md`. Para iniciar un modelo, copia su contenido en `modelo-casos-de-uso.md` y completa ese documento. El modelo del repositorio contiene el resultado acumulado del modelado de actores y casos de uso de E1 y E2, con sus diagramas y respaldo en los requisitos. La versión de trabajo es v2.6, en revisión. El apartado 6 contiene las descripciones detalladas de UC-05 y UC-21, delimitadas por sus actas correspondientes.
 
 La vista de E1 se conserva como `imagenes/casos-de-uso-acceso-cuentas-ayuda-e1.png`. La vista de E2 se conserva como `imagenes/casos-de-uso-salud-recetas-e2.png`.
 
@@ -61,4 +61,10 @@ Si se declara una línea base formal, se identifica mediante una etiqueta de Git
 
 ## Esquema de las descripciones
 
-La plantilla base v1.6 y el apartado 6 del modelo acumulado E2 v2.5 comparten el esquema de descripción. Utilizan Precondiciones y Postcondiciones. El estado y el alcance de las descripciones detalladas se registran en el modelo.
+La plantilla base v1.6 y el apartado 6 del modelo acumulado E2 v2.6 comparten el esquema de descripción. Utilizan Precondiciones y Postcondiciones. El estado y el alcance de las descripciones detalladas se registran en el modelo.
+
+## Modelo de dominio
+
+La [plantilla del dominio](plantilla-modelo-dominio.md) conserva el esquema vacío. El [documento del modelo de dominio](modelo-de-dominio.md) se ofrece inicialmente sin resolver. Su información de partida está en el [acta del dominio](../captura/acta-acuerdos-informacion-dominio.md).
+
+Para iniciar el trabajo, utiliza el documento vacío una sola vez. Si ya tienes un modelo iniciado, continúa sobre él. Las imágenes van en `imagenes/` y sus nombres se indican en la plantilla. Las demás vistas y modelos de esta carpeta conservan su estado anterior.

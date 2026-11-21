@@ -2,8 +2,8 @@
 
 ## Catálogo de requisitos
 
-**Versión:** 1.13
-**Fecha:** 02/10/2026
+**Versión:** 1.16
+**Fecha:** 19/11/2026
 **Estado:** UR, FR y NFR de la primera versión consolidados
 **Fuente de verdad:** este catálogo contiene el texto canónico de los requisitos de usuario (UR), funcionales (FR) y no funcionales (NFR).
 
@@ -50,9 +50,9 @@ Cada NFR expresa una única condición de calidad o restricción medible y verif
 
 | ID | Requisito de usuario | BO relacionados | FR asociados | Estado |
 | --- | --- | --- | --- | --- |
-| UR-01 | El usuario podrá registrarse en la plataforma proporcionando información básica como nombre, correo electrónico y contraseña, para acceder a las funcionalidades. | — | FR-001, FR-002, FR-003, FR-004, FR-005, FR-006, FR-007, FR-008, FR-009, FR-010, FR-011, FR-012, FR-013, FR-014, FR-188, FR-189, FR-190, FR-191, FR-192, FR-193, FR-194, FR-213, FR-214, FR-215 | Vigente |
+| UR-01 | El usuario podrá registrarse en la plataforma proporcionando información básica como nombre, correo electrónico y contraseña, para acceder a las funcionalidades. | — | FR-001, FR-002, FR-003, FR-004, FR-005, FR-006, FR-007, FR-008, FR-009, FR-010, FR-011, FR-012, FR-013, FR-014, FR-188, FR-189, FR-190, FR-191, FR-192, FR-193, FR-194, FR-213, FR-214, FR-215, FR-218, FR-219 | Vigente |
 | UR-02 | El usuario podrá autenticarse en la plataforma introduciendo sus credenciales de acceso. | — | FR-015, FR-016, FR-017, FR-018 | Vigente |
-| UR-03 | El usuario podrá gestionar su perfil en la plataforma, actualizando datos personales y de contacto cuando lo requiera. | — | FR-019, FR-020 | Vigente |
+| UR-03 | El usuario podrá gestionar su perfil en la plataforma, actualizando datos personales y de contacto cuando lo requiera. | — | FR-019, FR-020, FR-220 | Vigente |
 | UR-04 | El usuario registrado podrá participar en un foro colaborativo, creando nuevos hilos de discusión, respondiendo a publicaciones existentes y compartiendo opiniones o sugerencias. | BO-04, BO-05, BO-06 | FR-021, FR-022, FR-023, FR-024, FR-025, FR-026, FR-027, FR-028, FR-029, FR-030, FR-031, FR-032, FR-033, FR-034, FR-035, FR-036, FR-037, FR-038, FR-039, FR-040, FR-195, FR-196, FR-197 | Vigente |
 | UR-05 | El paciente podrá introducir y gestionar sus datos fisiológicos y de salud, accediendo a un historial detallado y actualizando la información según sea necesario. | BO-01, BO-02 | FR-041, FR-042, FR-043, FR-044, FR-045, FR-046, FR-047, FR-048, FR-049, FR-050, FR-051, FR-052, FR-053, FR-198, FR-199, FR-200, FR-201, FR-202, FR-203, FR-216, FR-217 | Vigente |
 | UR-06 | El usuario registrado podrá crear recetas en la plataforma, incluyendo detalles como ingredientes, instrucciones de preparación, tiempo de cocción, porciones, e incorporando imágenes o videos, para compartirlas con la comunidad. | BO-01, BO-03, BO-04, BO-05 | FR-054, FR-055, FR-056, FR-057, FR-058, FR-059, FR-060, FR-061, FR-062, FR-063, FR-064, FR-065, FR-066, FR-204, FR-205 | Vigente |
@@ -62,7 +62,7 @@ Cada NFR expresa una única condición de calidad o restricción medible y verif
 | UR-10 | El coordinador podrá moderar el contenido reportado o inadecuado, aplicando reglas de uso y garantizando un entorno seguro en la plataforma. | BO-03, BO-06 | FR-127, FR-128, FR-129, FR-130, FR-131, FR-132, FR-133, FR-134, FR-135, FR-136, FR-137, FR-138, FR-139, FR-142, FR-145, FR-146, FR-147, FR-148, FR-149, FR-150, FR-151, FR-152 | Vigente |
 | UR-11 | El usuario registrado podrá valorar las recetas y dejar comentarios para compartir opiniones, sugerencias o preguntas sobre las recetas publicadas. | BO-04, BO-05 | FR-153, FR-154, FR-155, FR-156, FR-157, FR-158, FR-159, FR-160, FR-161, FR-162, FR-163, FR-164, FR-165, FR-166, FR-167, FR-168, FR-169, FR-170, FR-171 | Vigente |
 | UR-12 | El usuario podrá acceder a una guía interactiva con instrucciones paso a paso sobre las funcionalidades de la plataforma, incluyendo registro, búsqueda, publicación de recetas y uso del foro, con elementos visuales y tutoriales multimedia. | — | FR-172, FR-173, FR-174, FR-175, FR-176, FR-177, FR-178, FR-179, FR-180, FR-207 | Vigente |
-| UR-13 | El coordinador podrá gestionar las cuentas de usuario desde un panel de administración, incluyendo la aprobación de nuevas cuentas, la suspensión de cuentas activas y la eliminación de cuentas cuando sea necesario. | BO-03, BO-06 | FR-181, FR-182, FR-183, FR-184, FR-185, FR-186, FR-187, FR-208, FR-209, FR-210, FR-211, FR-212 | Vigente |
+| UR-13 | El coordinador podrá gestionar las cuentas de usuario desde un panel de administración, incluyendo la aprobación de nuevas cuentas, la suspensión de cuentas activas y la eliminación de cuentas cuando sea necesario. | BO-03, BO-06 | FR-181, FR-182, FR-183, FR-184, FR-185, FR-186, FR-187, FR-208, FR-209, FR-210, FR-211, FR-212, FR-219 | Vigente |
 
 ## 4. Requisitos funcionales
 
@@ -86,7 +86,7 @@ Cada NFR expresa una única condición de calidad o restricción medible y verif
 | FR-016 | El sistema debe permitir recuperar o restablecer la contraseña exclusivamente mediante un enlace enviado al correo electrónico asociado a la cuenta. | UR-02 | — | Vigente |
 | FR-017 | Autenticación de dos factores. Requisito retirado; no se implementa en esta fase. | UR-02 | — | Retirado |
 | FR-018 | El sistema debe permitir el inicio de sesión mediante cuenta de Google como opción de autenticación externa. | UR-02 | — | Vigente |
-| FR-019 | El sistema debe permitir a los usuarios editar su información personal y preferencias desde su perfil en cualquier momento posterior al registro, con excepción del alias y del correo electrónico. | UR-03 | — | Vigente |
+| FR-019 | El sistema debe permitir a los usuarios editar su información personal y las preferencias disponibles para su perfil en cualquier momento posterior al registro, con excepción del alias y del correo electrónico. | UR-03 | — | Vigente |
 | FR-020 | El sistema debe permitir a los usuarios eliminar su cuenta mediante un proceso que incluya verificación de identidad con la contraseña actual. | UR-03 | — | Vigente |
 | FR-021 | El sistema debe requerir que el usuario haya iniciado sesión para crear hilos, publicar comentarios, responder, seguir hilos y dar "me gusta" en el foro. | UR-04 | — | Vigente |
 | FR-022 | El sistema debe permitir a los usuarios registrados crear hilos de discusión con título y cuerpo de contenido. | UR-04 | — | Vigente |
@@ -171,7 +171,7 @@ Cada NFR expresa una única condición de calidad o restricción medible y verif
 | FR-101 | El sistema debe ofrecer sugerencias automáticas de búsqueda basadas en el historial personal del usuario. | UR-08 | — | Vigente |
 | FR-102 | El sistema debe proporcionar alternativas relacionadas o correcciones ortográficas cuando una búsqueda no arroje resultados. | UR-08 | — | Vigente |
 | FR-103 | El sistema debe permitir la búsqueda de recetas en múltiples idiomas, ajustando los resultados al idioma seleccionado por el usuario. | UR-08 | — | Vigente |
-| FR-104 | El sistema debe recomendar recetas basadas en las preferencias alimenticias configuradas en el perfil del usuario. | UR-08 | — | Vigente |
+| FR-104 | El sistema debe recomendar recetas basadas en las preferencias alimenticias configuradas en el perfil del paciente. | UR-08 | — | Vigente |
 | FR-105 | El sistema debe recomendar recetas basadas en el historial de búsqueda del usuario. | UR-08 | — | Vigente |
 | FR-106 | El sistema debe recomendar recetas basadas en la información de salud del perfil del usuario (alergias, intolerancias). | UR-08 | — | Vigente |
 | FR-107 | El sistema debe mostrar una sección de recetas similares en la vista detallada de cada receta, calculada en función de ingredientes y tipo de comida. | UR-08 | — | Vigente |
@@ -256,7 +256,7 @@ Cada NFR expresa una única condición de calidad o restricción medible y verif
 | FR-209 | El sistema debe marcar como inactiva la cuenta de un cuidador que, transcurridos tres meses, no esté asociada a ningún paciente. | UR-13 | — | Vigente |
 | FR-210 | El sistema debe eliminar automáticamente la cuenta de un cuidador que permanezca sin asociación a ningún paciente durante un año completo. | UR-13 | — | Vigente |
 | FR-211 | El sistema debe conservar el contenido publicado por un cuidador tras la eliminación de su cuenta. | UR-13 | — | Vigente |
-| FR-212 | El sistema debe permitir que una misma cuenta tenga simultáneamente los perfiles de paciente y de cuidador. | UR-13 | — | Vigente |
+| FR-212 | El sistema debe permitir que una misma cuenta reúna varios de los perfiles de paciente, cuidador, nutricionista y coordinador, conservando las condiciones de habilitación de cada perfil. | UR-13 | — | Vigente |
 | FR-198 | El sistema debe permitir al paciente revocar, en cualquier momento, el acceso previamente concedido a un nutricionista sobre sus datos fisiológicos y de salud. | UR-05 | — | Vigente |
 | FR-199 | El sistema debe permitir al nutricionista autorizado proponer al paciente una frecuencia para sus recordatorios de registro de datos. | UR-05 | — | Vigente |
 | FR-200 | El sistema debe mantener un recordatorio como pendiente hasta que el paciente complete o descarte el registro de datos asociado. | UR-05 | — | Vigente |
@@ -281,6 +281,9 @@ Cada NFR expresa una única condición de calidad o restricción medible y verif
 | FR-213 | El sistema debe validar el formato y el tamaño del archivo de documentación profesional antes de continuar con el registro, mostrando junto al campo de carga cualquier error detectado. | UR-01 | — | Vigente |
 | FR-214 | El sistema debe mostrar, mientras la cuenta esté pendiente de verificación del correo electrónico, una pantalla que indique que el registro no se ha completado. | UR-01 | — | Vigente |
 | FR-215 | El sistema debe impedir finalizar el registro si alguna de las dos casillas de aceptación —términos y condiciones, política de privacidad— no está marcada. | UR-01 | — | Vigente |
+| FR-218 | El sistema debe mantener una única cuenta personal de Simbiosis, de uso individual, por cada persona registrada, con independencia de sus modalidades de acceso. | UR-01 | — | Vigente |
+| FR-219 | El sistema debe admitir, para cada paciente, ninguna o una única relación de cuidado activa. | UR-01, UR-13 | — | Vigente |
+| FR-220 | El sistema debe permitir seleccionar y editar preferencias dietéticas únicamente a usuarios con perfil de paciente. | UR-03 | — | Vigente |
 
 FR-017 se conserva para no perder el identificador histórico, pero su estado es `Retirado`: la autenticación de dos factores queda excluida de esta fase.
 
@@ -294,8 +297,8 @@ FR-149 se conserva para no perder el identificador histórico, pero su estado es
 | NFR-002 | NFR-Q · Integridad | La plataforma realizará al menos una copia de seguridad diaria de la información de salud y de las recetas. | Global | — | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.2.1; [Documento de Visión y Alcance](../vision/vision_y_alcance.md), §3.3 | Revisar el registro de copias de seguridad y comprobar que no falte ninguna copia diaria. | Vigente |
 | NFR-003 | NFR-Q · Localización e internacionalización | La primera versión estará disponible en castellano y gallego. | Global | — | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.4.4; [acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §7.2 | Revisar todas las pantallas y mensajes de la primera versión en ambos idiomas. | Vigente |
 | NFR-004 | NFR-Q · Capacidad y escalabilidad | La plataforma soportará una carga de 100 usuarios concurrentes y 10 operaciones por segundo durante 30 minutos. | Global | — | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.1.1 y §2.1.2 | Ejecutar una prueba de carga con 100 usuarios concurrentes y 10 operaciones por segundo durante 30 minutos. | Vigente |
-| NFR-005 | NFR-Q · Rendimiento | Con la carga de NFR-004, el 95 % de los inicios de sesión y de las consultas definidas para la prueba se completará en un máximo de 2 segundos. | Local | Pendiente de enlazar | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.1.2 y §2.1.3 | Medir los tiempos del 95 % de las operaciones indicadas durante la prueba de NFR-004, con los límites de medición del acta. | Vigente |
-| NFR-006 | NFR-Q · Rendimiento | Con la carga de NFR-004, el 95 % de las publicaciones de recetas, comentarios o mensajes se completará en un máximo de 3 segundos. | Local | Pendiente de enlazar | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.1.2 y §2.1.3 | Medir los tiempos del 95 % de las operaciones indicadas durante la prueba de NFR-004, con los límites de medición del acta. | Vigente |
+| NFR-005 | NFR-Q · Rendimiento | Con la carga de NFR-004, el 95 % de los inicios de sesión y de las consultas definidas para la prueba se completará en un máximo de 2 segundos. | Local | UR-02, UR-03, UR-04, UR-08 | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.1.2 y §2.1.3 | Medir los tiempos del 95 % de las operaciones indicadas durante la prueba de NFR-004, con los límites de medición del acta. | Vigente |
+| NFR-006 | NFR-Q · Rendimiento | Con la carga de NFR-004, el 95 % de las publicaciones de recetas, comentarios o mensajes se completará en un máximo de 3 segundos. | Local | UR-04, UR-06, UR-11 | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.1.2 y §2.1.3 | Medir los tiempos del 95 % de las operaciones indicadas durante la prueba de NFR-004, con los límites de medición del acta. | Vigente |
 | NFR-007 | NFR-Q · Rendimiento y Mantenibilidad | La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización. | Global | — | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.1.1 | Ejecutar la prueba de carga de NFR-004 y comprobar en los registros el ajuste automático de recursos y la ausencia de intervención manual del personal de la organización. | Vigente |
 | NFR-008 | NFR-Q · Recuperabilidad | Tras un incidente grave, la plataforma recuperará las funciones principales en un máximo de cuatro horas desde la declaración del incidente. | Global | — | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.2.1 | Probar la recuperación tras un incidente grave y medir el tiempo desde su declaración hasta la recuperación de las funciones principales. | Vigente |
 | NFR-009 | NFR-Q · Integridad | Tras un incidente grave, la pérdida de información no superará la correspondiente a las 24 horas anteriores al incidente. | Global | — | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.2.1 | Restaurar una copia tras un incidente simulado y comprobar la antigüedad de la información recuperada. | Vigente |
@@ -306,7 +309,21 @@ FR-149 se conserva para no perder el identificador histórico, pero su estado es
 | NFR-014 | NFR-I · Interfaz de usuario y localización | La interfaz permitirá cambiar entre castellano y gallego. Al seleccionar un idioma, los textos de navegación, formularios, validaciones y mensajes de la interfaz se mostrarán íntegramente en ese idioma. | Global | — | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.4.4; [acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §7.2; [SRS](./srs.md), §7 | Cambiar el idioma y revisar todas las pantallas y mensajes de la primera versión en ambos idiomas. | Vigente |
 | NFR-015 | NFR-I · Interfaz de software y autenticación | La autenticación mediante una cuenta de Google utilizará OAuth 2.0 u OpenID Connect sobre HTTPS y la plataforma no almacenará la contraseña de Google. | Global | — | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.3.1; [SRS](./srs.md), §5.2 | Probar la autenticación con una cuenta de prueba y revisar la configuración de la integración. | Vigente |
 
-La relación de NFR-005 y NFR-006 con identificadores UR o FR concretos queda pendiente de completar al consolidar la trazabilidad. `NFR-Q` identifica atributos de calidad; `NFR-R`, restricciones de diseño e implementación; y `NFR-I`, requisitos de interfaz externa.
+Las relaciones de NFR-005 y NFR-006 se registran por UR. Su aplicación se limita a las operaciones siguientes, definidas en el [acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.1.2:
+
+| NFR | UR relacionado | Operaciones cubiertas |
+| --- | --- | --- |
+| NFR-005 | UR-02 | Inicio de sesión. |
+| NFR-005 | UR-03 | Consulta del perfil. |
+| NFR-005 | UR-04 | Consulta del foro. |
+| NFR-005 | UR-08 | Búsqueda y consulta de recetas. |
+| NFR-006 | UR-04 | Publicación de hilos, comentarios y respuestas en el foro. |
+| NFR-006 | UR-06 | Publicación de recetas. |
+| NFR-006 | UR-11 | Publicación de comentarios y respuestas en recetas. |
+
+El enlace a un UR no extiende el objetivo temporal a todas sus funciones. Se mantienen la carga de NFR-004, el porcentaje y el tiempo de cada NFR y los límites de medición del acta, §2.1.3.
+
+`NFR-Q` identifica atributos de calidad; `NFR-R`, restricciones de diseño e implementación; y `NFR-I`, requisitos de interfaz externa.
 
 Categorías y atributos:
 
@@ -318,19 +335,19 @@ Categorías y atributos:
 
 | UR | FR asociados | NFR globales o ligados | UC relacionados |
 | --- | --- | --- | --- |
-| UR-01 | FR-001, FR-002, FR-003, FR-004, FR-005, FR-006, FR-007, FR-008, FR-009, FR-010, FR-011, FR-012, FR-013, FR-014, FR-188, FR-189, FR-190, FR-191, FR-192, FR-193, FR-194, FR-213, FR-214, FR-215 | — | — |
-| UR-02 | FR-015, FR-016, FR-017, FR-018 | — | — |
-| UR-03 | FR-019, FR-020 | — | — |
-| UR-04 | FR-021, FR-022, FR-023, FR-024, FR-025, FR-026, FR-027, FR-028, FR-029, FR-030, FR-031, FR-032, FR-033, FR-034, FR-035, FR-036, FR-037, FR-038, FR-039, FR-040, FR-195, FR-196, FR-197 | — | — |
+| UR-01 | FR-001, FR-002, FR-003, FR-004, FR-005, FR-006, FR-007, FR-008, FR-009, FR-010, FR-011, FR-012, FR-013, FR-014, FR-188, FR-189, FR-190, FR-191, FR-192, FR-193, FR-194, FR-213, FR-214, FR-215, FR-218, FR-219 | — | — |
+| UR-02 | FR-015, FR-016, FR-017, FR-018 | NFR-005 | — |
+| UR-03 | FR-019, FR-020, FR-220 | NFR-005 | — |
+| UR-04 | FR-021, FR-022, FR-023, FR-024, FR-025, FR-026, FR-027, FR-028, FR-029, FR-030, FR-031, FR-032, FR-033, FR-034, FR-035, FR-036, FR-037, FR-038, FR-039, FR-040, FR-195, FR-196, FR-197 | NFR-005, NFR-006 | — |
 | UR-05 | FR-041, FR-042, FR-043, FR-044, FR-045, FR-046, FR-047, FR-048, FR-049, FR-050, FR-051, FR-052, FR-053, FR-198, FR-199, FR-200, FR-201, FR-202, FR-203, FR-216, FR-217 | — | — |
-| UR-06 | FR-054, FR-055, FR-056, FR-057, FR-058, FR-059, FR-060, FR-061, FR-062, FR-063, FR-064, FR-065, FR-066, FR-204, FR-205 | — | — |
+| UR-06 | FR-054, FR-055, FR-056, FR-057, FR-058, FR-059, FR-060, FR-061, FR-062, FR-063, FR-064, FR-065, FR-066, FR-204, FR-205 | NFR-006 | — |
 | UR-07 | FR-067, FR-068, FR-069, FR-070, FR-071, FR-072, FR-073, FR-074, FR-075, FR-076, FR-077, FR-078, FR-079, FR-080, FR-081, FR-082, FR-083, FR-084, FR-206 | — | — |
-| UR-08 | FR-085, FR-086, FR-087, FR-088, FR-089, FR-090, FR-091, FR-092, FR-093, FR-094, FR-095, FR-096, FR-097, FR-098, FR-099, FR-100, FR-101, FR-102, FR-103, FR-104, FR-105, FR-106, FR-107, FR-108, FR-109, FR-110, FR-111, FR-112, FR-113, FR-114, FR-115, FR-116, FR-117, FR-118, FR-119 | — | — |
+| UR-08 | FR-085, FR-086, FR-087, FR-088, FR-089, FR-090, FR-091, FR-092, FR-093, FR-094, FR-095, FR-096, FR-097, FR-098, FR-099, FR-100, FR-101, FR-102, FR-103, FR-104, FR-105, FR-106, FR-107, FR-108, FR-109, FR-110, FR-111, FR-112, FR-113, FR-114, FR-115, FR-116, FR-117, FR-118, FR-119 | NFR-005 | — |
 | UR-09 | FR-120, FR-121, FR-122, FR-123, FR-124, FR-125, FR-126 | — | — |
 | UR-10 | FR-127, FR-128, FR-129, FR-130, FR-131, FR-132, FR-133, FR-134, FR-135, FR-136, FR-137, FR-138, FR-139, FR-142, FR-145, FR-146, FR-147, FR-148, FR-149, FR-150, FR-151, FR-152 | — | — |
-| UR-11 | FR-153, FR-154, FR-155, FR-156, FR-157, FR-158, FR-159, FR-160, FR-161, FR-162, FR-163, FR-164, FR-165, FR-166, FR-167, FR-168, FR-169, FR-170, FR-171 | — | — |
+| UR-11 | FR-153, FR-154, FR-155, FR-156, FR-157, FR-158, FR-159, FR-160, FR-161, FR-162, FR-163, FR-164, FR-165, FR-166, FR-167, FR-168, FR-169, FR-170, FR-171 | NFR-006 | — |
 | UR-12 | FR-172, FR-173, FR-174, FR-175, FR-176, FR-177, FR-178, FR-179, FR-180, FR-207 | — | — |
-| UR-13 | FR-181, FR-182, FR-183, FR-184, FR-185, FR-186, FR-187, FR-208, FR-209, FR-210, FR-211, FR-212 | — | — |
+| UR-13 | FR-181, FR-182, FR-183, FR-184, FR-185, FR-186, FR-187, FR-208, FR-209, FR-210, FR-211, FR-212, FR-219 | — | — |
 
 ## 7. Control de cambios
 
@@ -338,6 +355,9 @@ Los identificadores no se reutilizan ni se renumeran. Cuando se acepta un cambio
 
 | Versión | Fecha | Cambios | Requisitos afectados | Fuente o evidencia |
 | --- | --- | --- | --- | --- |
+| 1.16 | 19/11/2026 | Se limitan las preferencias dietéticas a pacientes y se ajustan UC-05 y la recomendación basada en preferencias alimenticias. | FR-019, FR-104, FR-220; UR-03 | [Acta de información del dominio](../captura/acta-acuerdos-informacion-dominio.md#91-gestión-de-usuarios); SC-002 |
+| 1.15 | 19/11/2026 | Se confirma una cuenta personal única por persona, se amplía la compatibilidad de perfiles y se limita a uno el cuidador activo de cada paciente, que también puede no tener cuidador. Se actualizan las asociaciones por UR y la matriz. | FR-212, FR-218 y FR-219; UR-01 y UR-13 | [Acta de información del dominio](../captura/acta-acuerdos-informacion-dominio.md#91-gestión-de-usuarios); [SC-001](../cambios/registro-solicitudes-cambio.md#solicitudes) y [DEC-001](../decisiones/registro-decisiones.md#decisiones) |
+| 1.14 | 15/10/2026 | Se completan los enlaces por UR de NFR-005 y NFR-006 y su relación inversa en la matriz. Se delimita cada relación por las operaciones cubiertas, sin cambiar los objetivos de rendimiento ni las condiciones de medición. | NFR-005, NFR-006; UR-02, UR-03, UR-04, UR-06, UR-08 y UR-11 | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.1.2 y §2.1.3 |
 | 1.13 | 02/10/2026 | Se añade un índice con enlaces a los apartados del catálogo. | — | Mejora de navegación |
 | 1.12 | 02/10/2026 | Se incorporan los quince NFR de la primera versión, con ámbito, procedencia y método de comprobación. NFR-007 se clasifica como Rendimiento y Mantenibilidad. | NFR-001–NFR-015 | [Acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md) |
 | 1.11 | 24/09/2026 | Se retira FR-149 por ser incompatible con la responsabilidad exclusiva del coordinador en la administración y moderación del foro. | FR-149 | [Acta de captura de requisitos generales, apartado 4](../captura/acta-captura-requisitos-generales.md#4-foro-interacción-y-moderación) |
