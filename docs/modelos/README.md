@@ -65,6 +65,6 @@ La plantilla base v1.6 y el apartado 6 del modelo acumulado E2 v2.6 comparten el
 
 ## Modelo de dominio
 
-La [plantilla del dominio](plantilla-modelo-dominio.md) conserva el esquema vacío. El [documento del modelo de dominio](modelo-de-dominio.md) se ofrece inicialmente sin resolver. Su información de partida está en el [acta del dominio](../captura/acta-acuerdos-informacion-dominio.md).
+La [plantilla del dominio](plantilla-modelo-dominio.md), versión 1.0, conserva el esquema vacío. Su información de partida está en el [acta del dominio](../captura/acta-acuerdos-informacion-dominio.md).
 
-Para iniciar el trabajo, utiliza el documento vacío una sola vez. Si ya tienes un modelo iniciado, continúa sobre él. Las imágenes van en `imagenes/` y sus nombres se indican en la plantilla. Las demás vistas y modelos de esta carpeta conservan su estado anterior.
+Para iniciar el trabajo, copia la plantilla como `modelo-de-dominio.md` si ese documento aún no existe. Si ya tienes un modelo iniciado, continúa sobre él. Las imágenes van en `imagenes/` y sus nombres se indican en la plantilla. Las demás vistas y modelos de esta carpeta conservan su estado anterior.
