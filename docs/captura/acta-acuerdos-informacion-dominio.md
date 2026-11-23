@@ -395,7 +395,7 @@ Los acuerdos del apartado 9.1 son la fuente de FR-218, de la ampliación de FR-2
 
 Esta versión incorpora las aclaraciones sobre identidad, perfiles, cuidado, recetas, foro, datos de salud, publicaciones de salud, moderación de contenidos y guía interactiva. Su alcance sigue siendo parcial: los aspectos aplazados del apartado 9 no se consideran resueltos.
 
-Las futuras ampliaciones del acta podrán incorporar otros módulos del Documento de Visión y Alcance. Los resultados del análisis conceptual se mantendrán en el [modelo de dominio](../modelos/modelo-de-dominio.md), con referencia a los apartados que los respalden.
+Las futuras ampliaciones del acta podrán incorporar otros módulos del Documento de Visión y Alcance. Los resultados del análisis conceptual se mantendrán en el modelo de dominio, con referencia a los apartados que los respalden.
 
 ## 12 Historial de versiones
 
