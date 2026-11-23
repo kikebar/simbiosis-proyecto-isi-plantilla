@@ -3,13 +3,14 @@
 | Campo | Valor |
 | --- | --- |
 | Proyecto | Proyecto Simbiosis |
-| Estado | Borrador con aclaraciones confirmadas; alcance acotado |
-| Versión | 0.21 |
+| Estado | Cerrada; alcance acotado y cuestiones pendientes |
+| Versión | 1.0 |
 | Fecha de preparación | 21/11/2026 |
+| Fecha de cierre | 24/11/2026 |
 | Alcance de esta versión | Gestión de usuarios, recetas, foro, datos de salud, publicaciones de salud, moderación de contenidos y guía interactiva |
 | Finalidad | Reunir y precisar la información del dominio necesaria para su análisis conceptual. |
 
-Este borrador organiza la información de dominio de los módulos analizados e incorpora aclaraciones confirmadas durante sus revisiones documentales del 19 y el 21/11/2026. No documenta una nueva entrevista. Los apartados 2 a 8 organizan la información por módulos. Los apartados 9 y 10 reúnen los acuerdos, los aspectos aplazados y las fuentes de cada módulo.
+Esta acta organiza la información de dominio de los módulos analizados e incorpora aclaraciones confirmadas durante sus revisiones documentales del 19 y el 21/11/2026. No documenta una nueva entrevista. Los apartados 2 a 8 organizan la información por módulos. Los apartados 9 y 10 reúnen los acuerdos, los aspectos aplazados y las fuentes de cada módulo. El cierre del acta no convierte las propuestas provisionales en acuerdos ni resuelve las cuestiones pendientes de aclaración con el cliente.
 
 ## Índice
 
@@ -400,6 +401,7 @@ Las futuras ampliaciones del acta podrán incorporar otros módulos del Document
 
 | Versión | Fecha | Cambio |
 | --- | --- | --- |
+| 1.0 | 24/11/2026 | Se cierra el acta con su alcance acotado, manteniendo las propuestas provisionales y las cuestiones pendientes de aclaración. |
 | 0.21 | 21/11/2026 | Se concretan las relaciones, la eliminación y el punto de reanudación de la guía interactiva. |
 | 0.20 | 21/11/2026 | Se incorpora una descripción inicial de la guía interactiva, con sus acuerdos y aspectos aplazados. |
 | 0.19 | 21/11/2026 | Se incorpora una primera descripción del historial y los registros de salud, con acuerdos y cuestiones aplazadas. |

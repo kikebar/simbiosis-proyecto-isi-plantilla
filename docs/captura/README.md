@@ -17,4 +17,4 @@ Cada acta nueva de captura o aclaración debe añadirse a esta carpeta y listars
 
 ## Información del dominio
 
-El [acta de acuerdos sobre la información del dominio](acta-acuerdos-informacion-dominio.md) reúne la información de siete áreas, sus acuerdos confirmados, sus propuestas provisionales y sus aspectos aplazados. Sus aclaraciones de requisitos se reflejan en el catálogo actualizado.
+El [acta de acuerdos sobre la información del dominio](acta-acuerdos-informacion-dominio.md), cerrada en su versión 1.0, reúne la información de siete áreas, sus acuerdos confirmados, sus propuestas provisionales y sus aspectos aplazados. Sus aclaraciones de requisitos se reflejan en el catálogo actualizado.
