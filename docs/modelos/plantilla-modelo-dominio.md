@@ -1,12 +1,10 @@
 # Modelo de dominio de Proyecto Simbiosis
 
-**Plantilla:** versión 1.0 · 24/11/2026.
-
-Los campos siguientes identifican la versión del modelo que se elabore a partir de esta plantilla.
-
 | Versión | Fecha | Estado |
 | --- | --- | --- |
-| Por completar | Por completar | En elaboración |
+| 1.1 | 24/11/2026 | Plantilla |
+
+Al crear el modelo a partir de esta plantilla, actualiza esta tabla con la versión, la fecha y el estado del documento de trabajo.
 
 ## 1 Propósito y alcance
 
